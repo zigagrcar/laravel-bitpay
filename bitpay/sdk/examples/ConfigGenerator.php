@@ -77,7 +77,7 @@ try {
  * The pairing code has to be approved in the BitPay Dashboard
  * THIS is just a cUrl example, which explains how to use the key pair for signing requests
  **/
-$baseUrl = $isProd ? 'https://bitpay.com' : 'https://test.bitpay.com';
+$baseUrl = $isProd ? 'https://pay.comatio.com' : 'https://test.comatio.com';
 $env = $isProd ? 'Prod' : 'Test';
 
 

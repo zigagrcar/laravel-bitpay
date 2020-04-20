@@ -132,11 +132,11 @@ class CreateKeypair extends Command
 
         // btcpay
         if ('testnet' == $this->config['network']) {
-            $this->network = 'https://test.bitpay.com';
+            $this->network = 'https://test.comatio.com';
         } elseif ('livenet' == $this->config['network']) {
-            $this->network = 'https://bitpay.com';
+            $this->network = 'https://pay.comatio.com';
         } else {
-            $this->network = 'https://bitpay.com';
+            $this->network = 'https://pay.comatio.com';
         }
 
         $bitpayClient = new Client(['base_uri' => $this->network]);
