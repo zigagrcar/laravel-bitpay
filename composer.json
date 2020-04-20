@@ -25,7 +25,7 @@
     "autoload": {
         "psr-4": {
             "Vrajroham\\LaravelBitpay\\": "src",
-            "BitPaySDK\\": "bitpay/sdk"
+            "Vrajroham\\LaravelBitpay\\BitPaySDK\\": "bitpay/sdk"
         }
     },
     "autoload-dev": {
