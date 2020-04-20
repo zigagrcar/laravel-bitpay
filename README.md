@@ -1,6 +1,9 @@
 # Modified version for use with BTCPayServer
 
-Change URL in two files: src\Commands\CreateKeypair.php and bitpay\sdk\src\BitPaySDK\Env.php
+Change your server URL in files: 
+- src\Commands\CreateKeypair.php 
+- bitpay\sdk\src\BitPaySDK\Env.php
+- bitpay\sdk\examples\ConfigGenerator.php
 
 # Laravel + BitPay Integration (Version 2)
 
