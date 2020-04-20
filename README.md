@@ -1,3 +1,7 @@
+# Modified version for use with BTCPayServer
+
+Change URL in two files: src\Commands\CreateKeypair.php and bitpay\sdk\src\BitPaySDK\Env.php
+
 # Laravel + BitPay Integration (Version 2)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/vrajroham/laravel-bitpay.svg?style=for-the-badge)](https://packagist.org/packages/vrajroham/laravel-bitpay)
@@ -10,19 +14,22 @@ Accept Bitcoin and Bitcoin Cash for your business with your Laravel application 
 > Requires PHP ^7.3
 
 ## Contents
-- [Installation](#installation)
-    + [Install Package](#install-package)
-    + [Publish config file](#publish-config-file)
-    + [Add configuration values](#add-configuration-values)
-    + [Add webhook event listener](#add-webhook-event-listener)
-    + [Connect to server and authenticate the client](#connect-to-server-and-authenticate-the-client)
-- [Examples](#examples)
-    + [Create Invoice and checkout (step wise)](#create-invoice-and-checkout)
-- [Changelog](#changelog)
-- [Contributing](#contributing)
-- [Security](#security)
-- [Credits](#credits)
-- [License](#license)
+- [Modified version for use with BTCPayServer](#modified-version-for-use-with-btcpayserver)
+- [Laravel + BitPay Integration (Version 2)](#laravel--bitpay-integration-version-2)
+  - [Contents](#contents)
+  - [Installation](#installation)
+      - [Install package](#install-package)
+      - [Publish config file](#publish-config-file)
+      - [Add configuration values](#add-configuration-values)
+      - [Add webhook event listener](#add-webhook-event-listener)
+  - [Connect to server and authenticate the client](#connect-to-server-and-authenticate-the-client)
+    - [Examples](#examples)
+        - [Create Invoice and checkout](#create-invoice-and-checkout)
+  - [Changelog](#changelog)
+  - [Contributing](#contributing)
+  - [Security](#security)
+  - [Credits](#credits)
+  - [License](#license)
 
 ## Installation
 

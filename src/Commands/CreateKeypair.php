@@ -131,7 +131,13 @@ class CreateKeypair extends Command
         $this->info(' - Created Service Identification Number (SIN Key) for client.');
 
         // btcpay
-        $this->network = $this->config['network'];
+        if ('testnet' == $this->config['network']) {
+            $this->network = 'https://test.bitpay.com';
+        } elseif ('livenet' == $this->config['network']) {
+            $this->network = 'https://bitpay.com';
+        } else {
+            $this->network = 'https://bitpay.com';
+        }
 
         $bitpayClient = new Client(['base_uri' => $this->network]);
 
